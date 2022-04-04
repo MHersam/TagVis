@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "boring-avatars": "^1.5.8",
+    "bottleneck": "^2.19.5",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "express-subdomain": "^1.0.5",
+    "image-data-uri": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "oauth-1.0a": "^2.2.4",
+    "querystring": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "workerpool": "^6.1.0",
+    "zotero-api-client": "^0.37.0"
+  }
+}

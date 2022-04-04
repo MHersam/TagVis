@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="standalone.js"></script>
+</head>
+<body>
+
+</body>
+
+<script>
+var sdk = MendeleySDK;
+   
+var Http = new XMLHttpRequest();
+var url="https://api.mendeley.com/documents?group_id=8069efaf-a344-3d19-952d-cba7fb3c0e2e&view=tags";
+Http.open("GET", url);
+Http.setRequestHeader('Authorization', 'Bearer MSwxNTk5NjgwMDE4OTE3LDYwMzA1MDY2MSwxMDI4LGFsbCwsLDI5ZDAwODJmOWZiODIwNGMyNzI5MjM4NDA2ODZhNDlkZGUyNmd4cnFiLDUyZDcyNThlLTNkYjQtM2VjYy1hNTg2LWYzYzRjOGYwNjgwYSxVXzllVWZoOVMxSGJlaGNyTmV1eGlPNjVfc2M')
+Http.setRequestHeader('Accept', 'application/vnd.mendeley-document.1+json')
+Http.send();
+
+Http.onreadystatechange = (e) => {
+  document.body.innerHTML = Http.responseText
+}
+
+
+</script>

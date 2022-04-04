@@ -1,0 +1,17 @@
+{
+  "name": "mendeleyapirequests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getAuthCode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "requests": "^0.3.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21.0"
+  }
+}

@@ -1,6 +1,6 @@
 # TagVis
 
-An interactive information visualization tool for analyzing relations between academic papers through user-defined tags
+TagVis is an interactive visualization tool for analyzing relations between academic papers. Connections between papers are established through assigned tags or citation data. Tagging papers is facilitated by tag suggestions and users can collectively build (tagged) collections of papers, or discover further literature on their own. Visualized graphs can be saved and shared as interactive sessions.
 
 ## Build for Production and Run
 ### Prerequisite:

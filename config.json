@@ -1,0 +1,25 @@
+{
+  "mendeley": {
+    "clientid": "YOUR-MENDELEY-CLIENT-ID",
+    "clientsecret": "YOUR-MENDELEY-CLIENT-SECRET",
+    "redirecturi": "YOUR-SERVER-URL"    
+  },
+  "zotero": {
+    "clientkey": "YOUR-ZOTERO-CLIENT-ID",
+    "clientsecret": "YOUR-ZOTERO-CLIENT-SECRET",
+    "redirecturi": "YOUR-SERVER-URL" 
+  },
+  "semanticscholar": {
+    "apikey": "YOUR-SEMANTICSCHOLAR-API-KEY",
+    "refreshinterval": "1209600000"
+  },
+  "mongodb": {
+    "url": "mongodb://localhost:27017/tagvis"
+  },
+  "tagvis": {
+    "secret": "YOUR-APPLICATION-SECRET"
+  },
+  "specter": {
+    "serverurl": "http://127.0.0.1:5000"
+  }
+}
